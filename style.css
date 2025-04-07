@@ -4,4 +4,45 @@ body {
        and use the OS’s UI font as the website font
      */
     font: 100%/1.5 system-ui;
+
+    /* Set the background color to a light gray */
+    background-color: #f0f0f0;
+    /* Set the text color to a dark gray */
+    color: #333;
+    /* Set the text alignment to center */
+    text-align: center;
+    /* Set the font size to 1.2em (120% of the default size) */
+    font-size: 1.2em;
+    /* Set the margin to 0 and padding to 1em on all sides */
+    margin: 0;
+    padding: 1em;
+    /* Set the maximum width to 800px and center the content */
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    /* Set the border radius to 10px and add a shadow effect */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Set the background color to white */
+    background-color: #fff;
+
+
+    /* Set the font family to a sans-serif font */
+    font-family: sans-serif;
+    /* Set the font weight to normal */
+    font-weight: normal;
+    /* Set the text decoration to none */
+    text-decoration: none;
+    /* Set the text transform to none */
+    text-transform: none;
+    /* Set the letter spacing to normal */
+    letter-spacing: normal;
+    /* Set the word spacing to normal */
+    word-spacing: normal;
+    /* Set the text indent to 0 */
+    text-indent: 0;
+    /* Set the text shadow to none */
+    text-shadow: none;
+
+    margin-inline: max(1em, (100% - 100ch) / 2);
    }
