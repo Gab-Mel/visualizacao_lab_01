@@ -2,19 +2,25 @@
 <html>
     <head>
         <title>Gabriel de Melo Lima: site pessoal e portifólio</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="index.html">Contatos</a>
+            <a href="../projects/index.html">Projetos</a>
+        </nav>
         <h1>
             Contatos
         </h1>
-        <form action="https://formspree.io/f/xjvjlqzj" method="POST">
-            <label for="name">Nome:</label><br>
-            <input type="text" id="name" name="name"><br>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email"><br>
-            <label for="message">Mensagem:</label><br>
-            <textarea id="message" name="message"></textarea><br>
-            <input type="submit" value="Enviar">
+        <form action="mailto:gabrielzinho.melo.10@gmail.com" method="GET">
+            <label for="email">Email:</label> <br>
+            <input name="email" type="email"> <br>
+            <label for="subject">Subject:</label> <br>
+            <input name="subject" type="text"> <br>
+            <label for="body">Body:</label> <br>
+            <textarea name="body"></textarea> <br>
+            <button>Submit</button>
         </form>
     </body>
 </html>
