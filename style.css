@@ -88,6 +88,8 @@ nav il {
 
 nav {
     display: flex;
+    border-bottom-color: var(--border-color);
+    background-color: color-mix(in oklch, var(--color-accent), canvas 85%);
 }
 
 nav a {
